@@ -1,28 +1,313 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kıble Bulucu - Gizlilik Politikası</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    h1 { color: #2c3e50; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kıble Bulucu - Gizlilik Politikası</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c5d2c;
+            text-align: center;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #2c5d2c;
+            margin-top: 30px;
+            padding-left: 10px;
+            border-left: 4px solid #4CAF50;
+        }
+        
+        h3 {
+            color: #4CAF50;
+            margin-top: 20px;
+        }
+        
+        .update-date {
+            background-color: #e8f5e8;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        
+        .contact-info {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #2196F3;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        .checkmark {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        
+        .data-list {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        ul {
+            margin: 10px 0;
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+        
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Kıble Bulucu - Gizlilik Politikası</h1>
-  <p><strong>Son Güncelleme:</strong> 31 Ağustos 2025</p>
+    <div class="container">
+        <h1>Kıble Bulucu - Gizlilik Politikası</h1>
+        
+        <div class="update-date">
+            <strong>Son Güncelleme:</strong> 26 Şubat 2026
+        </div>
 
-  <h2>Toplanan Veriler</h2>
-  <p>Uygulamamız kişisel verilerinizi toplamaz. Yalnızca cihazınızın pusula sensörünü kullanarak kıble yönünü belirler.</p>
+        <h2>1. Genel Bilgiler</h2>
+        <p>Bu gizlilik politikası, "Kıble Bulucu" mobil uygulamasının (bundan sonra "Uygulama" olarak anılacaktır) kullanıcılarının kişisel verilerinin nasıl toplandığı, kullanıldığı, saklandığı ve korunduğu hakkında bilgi vermektedir.</p>
+        
+        <div class="contact-info">
+            <strong>Veri Sorumlusu:</strong><br>
+            Geliştirici: Hasan Enes Genç<br>
+            İletişim: <a href="mailto:keyhatchgames@gmail.com">keyhatchgames@gmail.com</a>
+        </div>
 
-  <h2>Verilerin Kullanımı</h2>
-  <p>Tüm pusula verileri cihaz içinde işlenir. Hiçbir bilgi sunucularımıza veya üçüncü taraflara gönderilmez.</p>
+        <h2>2. Toplanan Veriler</h2>
 
-  <h2>Üçüncü Taraf Servisler</h2>
-  <p>Uygulamamızda reklam, analiz veya izleme servisi kullanılmaz.</p>
+        <h3>2.1 Konum Verileri</h3>
+        <div class="data-list">
+            <ul>
+                <li><strong>Toplanan Veri:</strong> GPS koordinatları (enlem ve boylam bilgisi)</li>
+                <li><strong>Toplama Amacı:</strong> Kullanıcının bulunduğu konumdan Kabe'ye olan yön ve mesafeyi hesaplamak</li>
+                <li><strong>İşleme Yöntemi:</strong> Veriler yalnızca cihazınızda işlenir, hiçbir sunucuya gönderilmez</li>
+                <li><strong>Saklama Süresi:</strong> Geçici olarak cihaz belleğinde tutulur, kalıcı depolama yapılmaz</li>
+            </ul>
+        </div>
 
-  <h2>İletişim</h2>
-  <p>Herhangi bir sorunuz için: <a href="mailto:keyhatchgames@gmail.com">keyhatchgames@gmail.com</a></p>
+        <h3>2.2 Sensör Verileri</h3>
+        <div class="data-list">
+            <ul>
+                <li><strong>Pusula Sensörü:</strong> Cihazın yönelimini belirlemek için</li>
+                <li><strong>Magnetometre:</strong> Manyetik alan ölçümü (pusula kalibrasyonu için)</li>
+                <li><strong>Hareket Sensörleri:</strong> Gyroscope ve accelerometer verileri (doğruluk artırma için)</li>
+                <li><strong>İşleme:</strong> Tüm sensör verileri sadece cihaz içinde işlenir</li>
+            </ul>
+        </div>
+
+        <h3>2.3 Reklam ile İlgili Veriler</h3>
+        <p>Uygulamamızda Google AdMob reklam servisi kullanılmaktadır:</p>
+        <div class="data-list">
+            <ul>
+                <li><strong>Reklam Tanımlayıcısı (Advertising ID):</strong> Kişiselleştirilmiş reklamlar için</li>
+                <li><strong>Cihaz Bilgileri:</strong> Marka, model, işletim sistemi sürümü</li>
+                <li><strong>Uygulama Kullanım Verileri:</strong> Reklam görüntüleme ve tıklama istatistikleri</li>
+            </ul>
+        </div>
+
+        <h2>3. Verilerin Kullanım Amaçları</h2>
+
+        <h3>3.1 Ana Uygulama İşlevi</h3>
+        <ul>
+            <li>Kıble yönünün hesaplanması</li>
+            <li>Kabe'ye olan mesafenin gösterilmesi</li>
+            <li>Pusula doğruluğunun artırılması</li>
+        </ul>
+
+        <h3>3.2 Reklam Hizmetleri</h3>
+        <ul>
+            <li>Ücretsiz uygulama deneyimi sunmak</li>
+            <li>İlgi alanlarınıza uygun reklamlar göstermek</li>
+        </ul>
+
+        <h2>4. Veri Paylaşımı ve Üçüncü Taraflar</h2>
+
+        <h3>4.1 Konum Verileri</h3>
+        <div class="highlight">
+            <p><span class="checkmark">✅</span> <strong>Paylaşılmaz:</strong> Konum verileriniz hiçbir üçüncü tarafla paylaşılmaz</p>
+            <p><span class="checkmark">✅</span> <strong>Cihaz İçi İşlem:</strong> Tüm hesaplamalar cihazınızda yapılır</p>
+        </div>
+
+        <h3>4.2 Reklam Verileri</h3>
+        <ul>
+            <li><strong>Google AdMob:</strong> Reklam gösterimi için gerekli teknik veriler paylaşılır</li>
+            <li><strong>AdMob Gizlilik Politikası:</strong> <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+        </ul>
+
+        <h2>5. Veri Güvenliği</h2>
+
+        <h3>5.1 Teknik Önlemler</h3>
+        <ul>
+            <li><strong>Yerel İşleme:</strong> Hassas veriler sadece cihazınızda işlenir</li>
+            <li><strong>Şifreleme:</strong> Cihaz içi veri aktarımları şifrelenir</li>
+            <li><strong>Minimum Veri Prensibi:</strong> Sadece gerekli veriler toplanır</li>
+        </ul>
+
+        <h3>5.2 Erişim Kontrolü</h3>
+        <ul>
+            <li><strong>İzin Tabanlı:</strong> Sadece verilen izinler dahilinde veri erişimi</li>
+            <li><strong>Geçici Saklama:</strong> Veriler kalıcı olarak depolanmaz</li>
+        </ul>
+
+        <h2>6. Kullanıcı Hakları</h2>
+
+        <h3>6.1 Genel Haklar</h3>
+        <ul>
+            <li><strong>Bilgilendirme Hakkı:</strong> Bu politika ile sağlanmaktadır</li>
+            <li><strong>Erişim Hakkı:</strong> Verilerinizin çoğu cihazınızda görülebilir</li>
+            <li><strong>Düzeltme Hakkı:</strong> Yanlış veriler silinip yenilenebilir</li>
+        </ul>
+
+        <h3>6.2 Silme ve İptal</h3>
+        <ul>
+            <li><strong>Uygulama Silme:</strong> Uygulamayı sildiğinizde tüm veriler silinir</li>
+            <li><strong>İzin İptali:</strong> Ayarlar > İzinler'den konum iznini iptal edebilirsiniz</li>
+            <li><strong>Reklam Takibi:</strong> Cihaz ayarlarından reklam takibini sınırlandırabilirsiniz</li>
+        </ul>
+
+        <h2>7. Çocukların Gizliliği</h2>
+        <p>Bu uygulama 13 yaş altı çocuklara yönelik değildir. Bilerek 13 yaş altı çocuklardan kişisel bilgi toplamayız. Böyle bir durumla karşılaştığımızda derhal veriyi sileriz.</p>
+
+        <h2>8. Uluslararası Veri Aktarımı</h2>
+        <ul>
+            <li><strong>Konum Verileri:</strong> Hiçbir şekilde aktarılmaz</li>
+            <li><strong>Reklam Verileri:</strong> Google AdMob'un global sunucularında işlenebilir</li>
+            <li><strong>Koruma:</strong> Tüm aktarımlar şifreli bağlantılar üzerinden yapılır</li>
+        </ul>
+
+        <h2>9. Veri Saklama Süreleri</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Veri Türü</th>
+                    <th>Saklama Süresi</th>
+                    <th>Konum</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>GPS Koordinatları</td>
+                    <td>Oturum süresi</td>
+                    <td>Cihaz RAM'i</td>
+                </tr>
+                <tr>
+                    <td>Sensör Verileri</td>
+                    <td>Anlık işleme</td>
+                    <td>Cihaz RAM'i</td>
+                </tr>
+                <tr>
+                    <td>Reklam Verileri</td>
+                    <td>AdMob politikasına göre</td>
+                    <td>Google sunucuları</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>10. Politika Değişiklikleri</h2>
+        <p>Bu gizlilik politikası gerektiğinde güncellenebilir. Önemli değişiklikler:</p>
+        <ul>
+            <li>Uygulama güncellemesi ile bildirilir</li>
+            <li>Web sitesinde yayınlanır</li>
+            <li>E-posta ile bilgilendirme yapılabilir</li>
+        </ul>
+
+        <h2>11. İletişim ve Şikayetler</h2>
+
+        <h3>Sorularınız için:</h3>
+        <div class="contact-info">
+            <strong>E-posta:</strong> <a href="mailto:keyhatchgames@gmail.com">keyhatchgames@gmail.com</a><br>
+            <strong>Konu:</strong> Gizlilik Politikası
+        </div>
+
+        <h3>Şikayet Hakları:</h3>
+        <ul>
+            <li>Kişisel Verileri Koruma Kurulu (KVKK)</li>
+            <li>İlgili veri koruma otoriteleri</li>
+            <li>Yerel tüketici hakları dernekleri</li>
+        </ul>
+
+        <h2>12. Yasal Dayanak</h2>
+        <p>Bu politika aşağıdaki mevzuatlara uygun olarak hazırlanmıştır:</p>
+        <ul>
+            <li>Türkiye Kişisel Verileri Koruma Kanunu (KVKK)</li>
+            <li>Avrupa Birliği Genel Veri Koruma Yönetmeliği (GDPR)</li>
+            <li>Kaliforniya Tüketici Gizlilik Yasası (CCPA)</li>
+        </ul>
+
+        <div class="footer">
+            <p><strong>Son Kontrol:</strong> 26 Şubat 2026</p>
+            <p><strong>Versiyon:</strong> 2.0</p>
+            <p><strong>Dil:</strong> Türkçe</p>
+        </div>
+    </div>
 </body>
 </html>
